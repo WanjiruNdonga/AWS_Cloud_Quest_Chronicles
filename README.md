@@ -35,8 +35,8 @@ Here's a peek at how it all went down:
   *My first login to the AWS Cloud Quest lab account. Ready to rumble!*
 
 * **Diving into S3:** My initial mission involved searching for "S3" in the top navigation bar – found it, clicked it, ready for action! [cite: 21, 22]
-    * *[Insert Screenshot: Searching for S3 in Console]*
-    * *Caption: Just casually finding my way to S3. Intuitive? Absolutely.*
+  *![Searching for S3 Screenshot](images/S3%20Search.png)*
+  *Just casually finding my way to S3. Intuitive? Absolutely.*
 
 * **Bucket Exploration (and a Name Copy!):** I navigated to a specific `website-bucket-` (it had a super long, unique name[cite: 26]!) which apparently held all the secrets (aka the static website code) for this lab[cite: 26]. Of course, I copied the bucket name – because a girl always has her notes ready for later DIY sessions[cite: 33, 34].
     * *[Insert Screenshot: S3 Buckets List with Website Bucket Selected]*
