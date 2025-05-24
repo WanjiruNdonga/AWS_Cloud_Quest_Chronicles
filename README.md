@@ -1,6 +1,6 @@
 # Quest 1: Cloud Computing Essentials - My First Dance with S3 ☁️🛡️
 
-Welcome back to my GitHub corner, where Cloud meets cute and even basic services get the fierce treatment! 💅🫧 This repository chronicles my journey through **Cloud Computing Essentials**, the very first practice lab in the AWS Cloud Quest Cloud Practitioner series. Think of it as my origin story with Amazon S3 – spoiler alert: it involved some bucket policy wizardry! ✨
+Welcome back to my GitHub corner, where Cloud meets cute and even basic services get the fierce treatment! 💅. This repository records my journey through **Cloud Computing Essentials**, the very first practice lab in the AWS Cloud Quest Cloud Practitioner series. Think of it as my origin story with Amazon S3 – spoiler alert: it involved some bucket policy wizardry! ✨
 
 ---
 
@@ -30,7 +30,7 @@ Navigating the AWS Console for the first time felt like stepping into a vast dig
 
 Here's a peek at how it all went down:
 
-* **First Impressions of the Console:** Got acquainted with the AWS Management Console, the web interface where all the magic happens[cite: 24]. It's bigger on the inside, like a tech-TARDIS!
+* **First Impressions of the Console:** Got acquainted with the AWS Management Console, the web interface where all the magic happens[cite: 24]. NGL, it felt a little intimidating at first!
   *![AWS Console Overview Screenshot](images/AWS%20Console.png "My first look at the AWS Console")*
   *My first login to the AWS Cloud Quest lab account. Ready to rumble!*
 
@@ -38,26 +38,27 @@ Here's a peek at how it all went down:
   *![Searching for S3 Screenshot](images/S3%20Search.png)*
   *Just casually finding my way to S3. Intuitive? Absolutely.*
 
-* **Bucket Exploration (and a Name Copy!):** I navigated to a specific `website-bucket-` (it had a super long, unique name[cite: 26]!) which apparently held all the secrets (aka the static website code) for this lab[cite: 26]. Of course, I copied the bucket name – because a girl always has her notes ready for later DIY sessions[cite: 33, 34].
-    * *[Insert Screenshot: S3 Buckets List with Website Bucket Selected]*
-    * *Caption: Peeking into the S3 bucket where the magic happens. Yes, I copied the name.*
+* **Bucket Exploration (and a Name Copy!):** I navigated to a specific `website-bucket-3e6d54e0` (it had a super long, unique name[cite: 26]!) which apparently held all the secrets (aka the static website code) for this lab[cite: 26]. Of course, I copied the bucket name – because a girl always has her notes ready for later DIY sessions[cite: 33, 34].
+  *![S3 Buckets List with Website Bucke](images/Website%20Bucket.png)*
+  *Peeking into the S3 bucket where the magic happens. Yes, I copied the name.*
 
 * **Unveiling the Website Files:** A quick peek at the objects inside the bucket revealed the goodies: `index.html`, `styles.css`, `main.js`, and even a CSV[cite: 35, 36, 37]. This is where the static webpage content lives!
-    * *[Insert Screenshot: Objects in the S3 Bucket]*
-    * *Caption: All the files for a fabulous static website, chilling in S3.*
+  *![Objects in Website Bucket](images/Website%20Bucket%20Objects.png)*
+  *All the files for a fabulous static website, chilling in S3.*
 
 * **Renaming for Resilience (and Drama!):** Next up, renaming `text.html` to `error.html`[cite: 45]. Because what's a website without a custom error page? It just screams "I thought of everything!" 😉
-    * *[Insert Screenshot: Renaming error.html]*
-    * *Caption: Giving an error page the glow-up it deserves. Every detail counts!*
+  *![Renaming error.html](images/Text-Error%20html.png)*
+  *Giving an error page the glow-up it deserves. Every detail counts!*
 
 * **Bucket Policy Basics: Unleashing Public Access (Carefully!):** This was spicy! I reviewed the "Block public access" settings to ensure it was set to `Off`[cite: 57]. Turns out, you gotta turn off public access blocking if you want to host a static website. AWS recommends keeping it on by default, but for static hosting, rules are meant to be... understood and occasionally bypassed for a good reason[cite: 57, 63, 64]! Then, diving into the bucket policy itself to secure things up[cite: 58].
-    * *[Insert Screenshot: Block Public Access Settings]*
-    * *Caption: Navigating public access settings. It's all about calculated risks and secure configurations!*
+  *![Block Public Access Settings](images/Block%20Public%20Access.png)*
+  *Navigating public access settings. It's all about calculated risks and secure configurations!*
 
 * **Website Hosting Activation:** Finally, enabling static website hosting for the bucket. This is where the magic of S3 as a simple web server truly shines! The lab had me verify the website was live[cite: 17].
-    * *[Insert Screenshot: Static Website Hosting Enabled]*
-    * *Caption: Voila! S3 now serving vibes (and a static website!).*
+  *![Static Website Hosting Enabled](images/Static%20Web%20Hosting%20Enabled.png)*
 
+  *![Static Website](images/Static%20Website.png)*
+  *Voila! S3 now serving vibes (and a static website!).*
 ---
 
 ### 🔑 Key Takeaways & Cloud Revelations:
