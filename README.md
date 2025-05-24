@@ -31,8 +31,8 @@ Navigating the AWS Console for the first time felt like stepping into a vast dig
 Here's a peek at how it all went down:
 
 * **First Impressions of the Console:** Got acquainted with the AWS Management Console, the web interface where all the magic happens[cite: 24]. It's bigger on the inside, like a tech-TARDIS!
-    * *[Insert Screenshot: AWS Console Overview]*
-    * *Caption: My first login to the AWS Cloud Quest lab account. Ready to rumble!*
+  *![AWS Console Overview Screenshot](images/AWS%20Console.png "My first look at the AWS Console")*
+  *My first login to the AWS Cloud Quest lab account. Ready to rumble!*
 
 * **Diving into S3:** My initial mission involved searching for "S3" in the top navigation bar – found it, clicked it, ready for action! [cite: 21, 22]
     * *[Insert Screenshot: Searching for S3 in Console]*
